@@ -6,6 +6,6 @@ def index(request):
 
     #template = loader.get_template('landing/template')
 
-    return render(request, 'landing/templates/landing/index.html')
+    return render(request, 'landing/index.html');
 
     #return HttpResponse("Landing Page")
